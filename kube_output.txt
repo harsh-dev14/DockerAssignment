@@ -1,0 +1,4 @@
+NAME                                         READY   STATUS              RESTARTS      AGE
+text-processor-deployment-6c48744f5c-tjccv   0/1     ImagePullBackOff    0             3m48s
+text-processor-deployment-7bccc897c4-g48h4   0/1     ContainerCreating   0             21m
+text-processor-deployment-8758f8576-bmpx7    0/1     Error               2 (15s ago)   16s

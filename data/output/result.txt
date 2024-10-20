@@ -1,0 +1,15 @@
+Word Count in IF.txt: 301
+Word Count in AlwaysRememberUsThisWay.txt: 242
+Grand Total Word Count: 543
+
+Top 3 Words in IF.txt:
+you: 20
+and: 20
+if: 14
+
+Top 3 Words in AlwaysRememberUsThisWay.txt (after handling contractions):
+i: 15
+the: 13
+t: 9
+
+IP Address of the Container: 172.17.0.2

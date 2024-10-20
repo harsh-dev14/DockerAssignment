@@ -1,0 +1,27 @@
+# deployment.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: text-processor-deployment
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: text-processor
+  template:
+    metadata:
+      labels:
+        app: text-processor
+    spec:
+      containers:
+      - name: text-processor
+        image: text-processor:4.0
+        volumeMounts:
+        - name: data-volume
+          mountPath: /home/data
+      volumes:
+      - name: data-volume
+        hostPath:
+          path: /Users/harshkumar/Desktop/Assignments/Cloud/Docker_Assignment/
+          type: Directory
